@@ -1,9 +1,13 @@
 import React from 'react';
 
+import Catalogue from '../../components/catalogue/catalogue.component';
+
+import './homepage.styles.scss';
+
 const HomePage = () => {
   return (
     <section className="homepage">
-      <p>catalogue from homepage-component</p>
+      <Catalogue />
     </section>
   );
 };

@@ -1,0 +1,75 @@
+.catalogue {
+  width: 70vw;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  .item-image.image1 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../../assets/gama.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px 5px;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .item-image.image1 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../../assets/earing.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px 5px;
+  }
+
+  .item-image.image2 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../../assets/earing2.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px 5px;
+  }
+
+  .item-image.image3 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../../assets/earing3.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px 5px;
+  }
+
+  .item-image.image4 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../../assets/gama.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px 5px;
+  }
+
+  .item-image.image5 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../../assets/fur-bag.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px 5px;
+  }
+
+  .item-image.image6 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../../assets/granny-bag.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 10px 5px;
+  }
+}
