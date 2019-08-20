@@ -1,0 +1,50 @@
+.dropdown {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px 10px;
+  width: 250px;
+  height: 350px;
+  z-index: 1;
+
+  .cart-items {
+    height: 85%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    .cart-item {
+      display: flex;
+      margin: 10px 0;
+
+      .image {
+        width: 80px;
+        height: 80px;
+        background-image: url('../../assets/gama.jpg');
+        background-position: center;
+        background-size: cover;
+      }
+
+      .cart-details {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        .name {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .checkout-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
