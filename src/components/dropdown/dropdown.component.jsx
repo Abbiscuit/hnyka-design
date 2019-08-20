@@ -1,7 +1,10 @@
 import React from 'react';
 
-import './dropdown.styles.scss';
+import { Link } from 'react-router-dom';
+
 import CustomButton from '../custom-button/custom-button.component';
+
+import './dropdown.styles.scss';
 
 const Dropdown = () => {
   return (
@@ -37,7 +40,9 @@ const Dropdown = () => {
         </div>
       </div>
       <div className="checkout-button">
-        <CustomButton> 購入手続きへ </CustomButton>
+        <Link to="/checkout">
+          <CustomButton>購入手続きへ</CustomButton>
+        </Link>
       </div>
     </div>
   );

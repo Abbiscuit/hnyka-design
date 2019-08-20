@@ -1,0 +1,38 @@
+.checkout-items {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffebed;
+  padding: 15px 0;
+  font-size: 16px;
+
+  .image-container {
+    width: 19%;
+    padding-right: 15px;
+
+    .image {
+      width: 100%;
+      height: 100%;
+      background-image: url('../../assets/gama.jpg');
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  .name,
+  .quantity,
+  .price,
+  .total-item-price {
+    display: flex;
+    align-items: center;
+    width: 19%;
+  }
+
+  .remove {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    cursor: pointer;
+  }
+}

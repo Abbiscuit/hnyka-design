@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './header.styles.scss';
 import Dropdown from '../dropdown/dropdown.component';
-import { nullLiteral } from '@babel/types';
+
+import './header.styles.scss';
 
 class Header extends React.Component {
   state = {

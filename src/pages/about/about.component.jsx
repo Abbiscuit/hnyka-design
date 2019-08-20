@@ -2,7 +2,7 @@ import React from 'react';
 
 import './about.styles.scss';
 
-const About = () => {
+const AboutPage = () => {
   return (
     <section className="about">
       <p>Hnyka Storeへようこそ！</p>
@@ -20,4 +20,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPage;

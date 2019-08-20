@@ -6,6 +6,7 @@ import SignUp from './components/sign-up/sign-up.component';
 
 import AboutPage from './pages/about/about.component';
 import HomePage from './pages/homepage/homepage.component';
+import CheckoutPage from './pages/checkout/checkout.component';
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" component={AboutPage} />
         <Route path="/signin" component={SignIn} />
         <Route path="/signup" component={SignUp} />
+        <Route path="/checkout" component={CheckoutPage} />
       </Switch>
     </div>
   );
