@@ -12,9 +12,7 @@ const About = () => {
       </p>
       <a
         href="https://www.instagram.com/hnyka_abbiscuit/"
-        style={{
-          borderBottom: '3px solid pink'
-        }}
+        className="instagram"
       >
         instagramアカウントはこちら
       </a>

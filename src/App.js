@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from './components/header/header.component';
 import SignIn from './components/sign-in/sign-in.component';
+import SignUp from './components/sign-up/sign-up.component';
 
 import AboutPage from './pages/about/about.component';
 import HomePage from './pages/homepage/homepage.component';
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={AboutPage} />
         <Route path="/signin" component={SignIn} />
+        <Route path="/signup" component={SignUp} />
       </Switch>
     </div>
   );

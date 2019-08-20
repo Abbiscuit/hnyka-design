@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './sign-in.styles.scss';
 import CustomButton from '../custom-button/custom-button.component';
@@ -10,11 +11,11 @@ class SignIn extends Component {
         <h2 className="title">ログイン</h2>
         <form>
           <div>
-            <label htmlFor="email">Email: </label>
+            <label htmlFor="email">Eメール: </label>
             <input type="email" name="email" className="form-input" required />
           </div>
           <div>
-            <label htmlFor="password">Password: </label>
+            <label htmlFor="password">パスワード: </label>
             <input
               type="password"
               name="password"
@@ -24,7 +25,13 @@ class SignIn extends Component {
           </div>
           <div className="buttons">
             <CustomButton type="submit"> ログイン </CustomButton>
+            <CustomButton type="submit" isGoogleSignIn>
+              Googleでログイン
+            </CustomButton>
           </div>
+          <Link to="/signup" className="auth-option">
+            アカウントをお持ちでない方はこちら
+          </Link>
         </form>
       </div>
     );
